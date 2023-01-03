@@ -1,0 +1,74 @@
+.site-content {
+  margin: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.ant-modal-wrap {
+  overflow-x: hidden !important;
+}
+
+.ant-input-search-button {
+  background-color: aliceblue;
+}
+.ant-table-cell-row-hover {
+  background: #e6f7ff !important;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #bdbdbd;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ant-table-row {
+  cursor: pointer !important;
+}
+
+.red > .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: rgb(241, 106, 106) !important;
+  border-color: rgb(241, 106, 106) !important;
+}
+
+.red .ant-checkbox-inner {
+  border-color: rgb(241, 106, 106) !important;
+}
+
+.blue > .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: rgb(109, 106, 241) !important;
+  border-color: rgb(109, 106, 241) !important;
+}
+
+.blue .ant-checkbox-inner {
+  border-color: rgb(109, 106, 241) !important;
+}
+
+.green > .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: rgb(76, 198, 17) !important;
+  border-color: rgb(76, 198, 17) !important;
+}
+
+.green .ant-checkbox-inner {
+  border-color: rgb(76, 198, 17) !important;
+}
